@@ -1,0 +1,13 @@
+:root{
+	--mainColor:linear-gradient(155deg, rgba(255, 290, 141, .4) 90%, rgba(255, 231, 180, .6) 100%), url('images/blueEyes.jpg');
+	--faceColor: #7791a094;
+	--ballsColors:#034165e6;
+	--bgBtn:#0b026fa3;
+	--txtColor:#0b026fa3;
+	--headerColor: #748c9a5e;
+	--socialColor:blue;
+	--faceBorder:#5a97cc2e;
+    --formColor:#7791a094;
+    --emailImage1:url('images/before.png');
+    --emailImage2:url('images/after.png');
+}

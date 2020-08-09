@@ -1,0 +1,13 @@
+:root{
+	--mainColor:linear-gradient(155deg, rgba(206, 190, 41, .4) 90%, rgba(155, 31, 80, .6) 100%), url('images/wp3356147-green-eyes-wallpaper-hd.jpg');
+	--faceColor: #179617a6;
+	--ballsColors:#436502;
+	--bgBtn:#113301e3;
+	--txtColor:white;
+	--headerColor: #179617a6;
+	--socialColor:green;
+	--faceBorder:#1796174d;	
+    --formColor:#179617a6;
+    --emailImage1:url('images/beforeGreen.png');
+    --emailImage2:url('images/afterGreen.png');
+}
