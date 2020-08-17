@@ -10,5 +10,7 @@
     --formColor:#f79b1f75;
     --emailImage1:url('images/beforeBrown.png');
     --emailImage2:url('images/afterBrown.png');
+	--borderColor:brown;
+    --bgHeader:#f79b1f75;
 
 }
