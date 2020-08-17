@@ -358,30 +358,36 @@
 
 <section class="leavesFalling" style="overflow: hidden;">
 
-    <div class="set">
-        <div><img src="images/leaves1.png"></div>
-        <div><img src="images/leaves2.png"></div>
-        <div><img src="images/leaves3.png"></div>
-        <div><img src="images/leaves4.png"></div>
-        <div><img src="images/leaves1.png"></div>
-        <div><img src="images/leaves2.png"></div>
-        <div><img src="images/leaves3.png"></div>
-        <div><img src="images/leaves4.png"></div>
-    </div>
-<div class="container" id="contct">
+<br><br><br><br>
+<div class="container" style="height: 500px;">
   <div class="row" >
-    <div class="col-md-6 col-sm-12 " id="wrap" style="height: 550px">
-      <div id="form-wrap">
-        <div id="theme-options-wrapper" style="overflow: hidden; background-color: white"><h4 class="theme-text" style="width: 230px; color: var(--ballsColors);">CONTACT ME</h4></div>   
-        <div class="frmstyle" style=" width: 490px">
-            <h2 class="Booktext">Hey!</h2>
-            <p class="Booktext2" style="color: var(--ballsColors);">You can contact to a freshly graduated software engineer, certified web front-end developer, Python & Django developer, internet researcher and an Urdu poetess. Available to join any software developmet team.</p><br>
-            <br><br><br><br><br>
-        </div>
-    </div> 
+    <div class="col-sm-12 col-md-6 " id="wrap" style="height: 500px">
+        <form class="frmstyle" method="POST" >
+            <p class="Pstyle" style="color: black">Contact Us</p>
+            
+            <label for="name" class="LbStyle">Name:</label>
+            <input type="text" name="message_name" value="" id="name" style="border:1px solid var(--borderColor)" class="inStyle" required>
+
+                <label for="name" class="LbStyle">Email:</label>
+                <input type="email" name="message_email" id="email"  class="inStyle" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|gov|mil|biz|info|mobi|name|aero|jobs|museum)\b"  style="border:1px solid var(--borderColor)" placeholder="example@gmail.com" required>
+
+
+            <label for="email" class="LbStyle">Your Message:</label>
+            <textarea name="message" id="message" value="Your Message" style="border:1px solid  var(--borderColor)" class="txtareaStyle" required></textarea>
+
+                <button type="submit" name="submit" value="NewSending" style="width: 30%;height: 35px; font-size: 15px; letter-spacing: 0px; justify-content: center; border-radius: 1px; float: right; border-color: var(--borderColor)" class="NeonBtn">
+                        <span class="NeonBtun"></span>
+                        <span class="NeonBtun"></span>
+                        <span class="NeonBtun"></span>
+                        <span class="NeonBtun"></span>
+                            Send
+                  </button>
+  
     </div>
   </div>
 </div>
+
+<br><br>
 </section>
 <br>
 <section style="margin-top:30px">
