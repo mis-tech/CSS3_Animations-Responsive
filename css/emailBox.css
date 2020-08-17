@@ -33,7 +33,7 @@
 
 
 		.frmstyle{
-			background: white;
+			background:var(--bgHeader);
 			position: relative;
 			top: 20px;
 			overflow: hidden;
